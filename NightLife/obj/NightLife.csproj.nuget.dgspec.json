@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife\\NightLife.csproj": {}
+    "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife\\NightLife.csproj": {
+    "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife\\NightLife.csproj",
+        "projectUniqueName": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife.csproj",
         "projectName": "NightLife",
-        "projectPath": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife\\NightLife.csproj",
+        "projectPath": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife.csproj",
         "packagesPath": "C:\\Users\\Asus_pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife\\obj\\",
+        "outputPath": "D:\\Work\\Personal\\NightLife\\NightLife\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
