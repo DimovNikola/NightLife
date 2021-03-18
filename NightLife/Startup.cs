@@ -2,11 +2,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using NightLife.Models;
+using NightLife.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +35,10 @@ namespace NightLife
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NightLife", Version = "v1" });
             });
+            services.AddDbContext<NightLifeApiContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("NightLifeConnection")));
+
+            services.AddScoped<INightLifeRepository, NightLifeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
