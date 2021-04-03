@@ -10,7 +10,7 @@ namespace NightLife.Models
     public class NightLifeApiContext : DbContext
     {
         public NightLifeApiContext(DbContextOptions<NightLifeApiContext> options) : base(options)
-        {   
+        {
 
         }
 

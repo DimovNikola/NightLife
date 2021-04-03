@@ -13,6 +13,7 @@ using NightLife.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace NightLife
@@ -31,6 +32,7 @@ namespace NightLife
         {
 
             services.AddControllers();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NightLife", Version = "v1" });
@@ -39,6 +41,11 @@ namespace NightLife
                 options.UseNpgsql(Configuration.GetConnectionString("NightLifeConnection")));
 
             services.AddScoped<INightLifeRepository, NightLifeRepository>();
+
+            services.AddControllersWithViews()
+                .AddNewtonsoftJson(options =>
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+                );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

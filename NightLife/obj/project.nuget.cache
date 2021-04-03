@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HKdaWuk3ax7iI5JdNggndK8zjZvLlCd7a6MAgQyvA55z7xshwaw7odCq4qPIbhFJj6vluppu9stI9WmuP4xakw==",
+  "dgSpecHash": "/aDymnSr35wN8YeGi687xlHqonccrBwDV92qzfKHhcaOJekfnI/Sfesd4uiZUMGBU2W7MVG6aJsgqrYuW9Nr7g==",
   "success": true,
   "projectFilePath": "D:\\Work\\Personal\\NightLife\\NightLife\\NightLife.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.4\\microsoft.aspnetcore.jsonpatch.5.0.4.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.4\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.4.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.4\\microsoft.entityframeworkcore.5.0.4.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
@@ -23,6 +27,8 @@
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\npgsql\\5.0.2\\npgsql.5.0.2.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.2\\npgsql.entityframeworkcore.postgresql.5.0.2.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
@@ -32,6 +38,7 @@
     "C:\\Users\\Asus_pc\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Asus_pc\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Asus_pc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []

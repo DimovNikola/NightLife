@@ -36,3 +36,9 @@ D:\Work\Personal\NightLife\NightLife\obj\Debug\net5.0\NightLife.dll
 D:\Work\Personal\NightLife\NightLife\obj\Debug\net5.0\ref\NightLife.dll
 D:\Work\Personal\NightLife\NightLife\obj\Debug\net5.0\NightLife.pdb
 D:\Work\Personal\NightLife\NightLife\obj\Debug\net5.0\NightLife.genruntimeconfig.cache
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\AutoMapper.dll
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Work\Personal\NightLife\NightLife\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
